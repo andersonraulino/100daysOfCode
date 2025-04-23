@@ -7,8 +7,17 @@ Aqui eu vou registrar meu progresso diário enquanto codifico por pelo menos 1 h
 
 ## 📅 Dia 1
 
-✅ **Data:** [coloca a data aqui, tipo 23/04/2025]  
+✅ **Data:** 23/04/2025 
 📌 **Resumo:**  
 Hoje comecei o desafio com o clássico dos clássicos:  
 ```python
-print("Hello World!")
+print("Hello World!")```
+
+---
+
+E dei uma enriquecida com outros funcionálidades:
+from time import sleep #Função para dar um intervalo entre os códigos.
+
+saudacao = print('Hello World!') #Exibe a mensagem 'Hello World' no console, para quebrar a maldição.
+sleep(0.8)#Intervalo de 0.8s.
+print("Ebaaaaa!!! Quebrei a maldição!!!")

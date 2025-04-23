@@ -11,11 +11,13 @@ Aqui eu vou registrar meu progresso diário enquanto codifico por pelo menos 1 h
 📌 **Resumo:**  
 Hoje comecei o desafio com o clássico dos clássicos:  
 ```python
-print("Hello World!")```
-
+print("Hello World!")
+```
 ---
 
 E dei uma enriquecida com outros funcionálidades:
+from time import sleep #Função para dar um intervalo entre os códigos.
+```python
 from time import sleep #Função para dar um intervalo entre os códigos.
 
 saudacao = print('Hello World!') #Exibe a mensagem 'Hello World' no console, para quebrar a maldição.

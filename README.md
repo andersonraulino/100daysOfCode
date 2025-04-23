@@ -5,7 +5,7 @@ Aqui eu vou registrar meu progresso diário enquanto codifico por pelo menos 1 h
 
 ---
 
-## 📅 Dia 1
+## 🗓️ Dia 1
 
 ✅ **Data:** 23/04/2025 
 📌 **Resumo:**  
@@ -15,7 +15,7 @@ print("Hello World!")
 ```
 ---
 
-E dei uma enriquecida com outros funcionalidades:
+E dei uma enriquecida com outras funcionalidades:
 ```python
 from time import sleep #Função para dar um intervalo entre os códigos.
 

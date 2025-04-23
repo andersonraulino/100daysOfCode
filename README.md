@@ -15,8 +15,7 @@ print("Hello World!")
 ```
 ---
 
-E dei uma enriquecida com outros funcionálidades:
-from time import sleep #Função para dar um intervalo entre os códigos.
+E dei uma enriquecida com outros funcionalidades:
 ```python
 from time import sleep #Função para dar um intervalo entre os códigos.
 

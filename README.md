@@ -22,3 +22,21 @@ from time import sleep #Função para dar um intervalo entre os códigos.
 print('Hello World!') #Exibe a mensagem 'Hello World' no console, para quebrar a maldição.
 sleep(0.8)#Intervalo de 0.8s.
 print("Ebaaaaa!!! Quebrei a maldição!!!")
+```
+## 🗓️ Dia 2
+
+✅ **Data:** 24/04/2025 
+📌 **Resumo:**  
+Hoje comecei o desafio com o clássico dos clássicos:  
+```python
+print("Hello World!")
+``` 
+---
+
+E dei uma enriquecida com outras funcionalidades:
+```python
+from time import sleep #Função para dar um intervalo entre os códigos.
+
+print('Hello World!') #Exibe a mensagem 'Hello World' no console, para quebrar a maldição.
+sleep(0.8)#Intervalo de 0.8s.
+print("Ebaaaaa!!! Quebrei a maldição!!!")

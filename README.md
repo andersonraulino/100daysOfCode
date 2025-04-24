@@ -23,6 +23,7 @@ print('Hello World!') #Exibe a mensagem 'Hello World' no console, para quebrar a
 sleep(0.8)#Intervalo de 0.8s.
 print("Ebaaaaa!!! Quebrei a maldição!!!")
 ```
+---
 ## 🗓️ Dia 2
 
 ✅ **Data:** 24/04/2025 

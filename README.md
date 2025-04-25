@@ -12,7 +12,7 @@ Aqui eu vou registrar meu progresso diário enquanto codifico por pelo menos 1 h
 Hoje comecei o desafio com o clássico dos clássicos:  
 ```python
 print("Hello World!")
-``` 
+```
 ---
 
 E dei uma enriquecida com outras funcionalidades:

@@ -62,6 +62,7 @@ print(f"\nSiblings:{siblings[0]}") #Utilizando "[]" após a variável, é possiv
 ## 🗓️ Dia 3
 ✅ **Data:** 25/04/2025 
 📌 **Resumo:**
+
 Hoje foi dia de praticar input e output!
 Trabalhei com input() e print() em alguns exercícios simples, mas que me ajudaram a entender melhor como interagir com o usuário e exibir informações de forma clara.
 

@@ -60,7 +60,7 @@ print(f"\nSiblings:{siblings[0]}") #Utilizando "[]" após a variável, é possiv
 ```
 ---
 ## 🗓️ Dia 3
-✅ **Data:** 25/04/2025 
+✅ **Data:** 25/04/2025
 📌 **Resumo:**
 
 Hoje foi dia de praticar input e output!
@@ -71,15 +71,15 @@ Pode parecer básico, mas cada linha de código é um passo a mais nessa jornada
 Bora pro próximo!
 ```python
 name = input("Qual seu nome?")
-print(f"Olá, {name}")
+print(f"Olá, {name}") 
 
-age = int(input("Qual sua idade?"))
-height = float(input("Qual sua altura?"))
+age = int(input("Qual sua idade?")) #int converte valor para números inteiros
+height = float(input("Qual sua altura?")) #float converte valor para números decimais
 
 print(f"\nSeus dados:")
-print(f"Nome: {name}")
-print(f"Idade: {age}")
-print(f"Altura: {height}")
+print(f"Nome: {name}") #Tipo String
+print(f"Idade: {age}") #Tipo Inteiro
+print(f"Altura: {height}") #Tipo Decimal
 
 print("\nTipos de dados:")
 print("Nome: ", type(name))

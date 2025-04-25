@@ -77,13 +77,13 @@ age = int(input("Qual sua idade?")) #int converte valor para números inteiros
 height = float(input("Qual sua altura?")) #float converte valor para números decimais
 
 print(f"\nSeus dados:")
-print(f"Nome: {name}") #Tipo String
-print(f"Idade: {age}") #Tipo Inteiro
-print(f"Altura: {height}") #Tipo Decimal
+print(f"Nome: {name}") 
+print(f"Idade: {age}") 
+print(f"Altura: {height}") 
 
 print("\nTipos de dados:")
-print("Nome: ", type(name))
-print("Idade: ", type(age))
-print("Altura: ", type(height))
+print("Nome: ", type(name)) #Tipo String
+print("Idade: ", type(age)) #Tipo Inteiro
+print("Altura: ", type(height)) #Tipo Decimal
 ```
 

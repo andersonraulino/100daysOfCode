@@ -58,3 +58,31 @@ Logo após, resolvi testar retirar somente um valor da variável:
 print(f"\nSiblings:{siblings[0]}") #Utilizando "[]" após a variável, é possivel acessar um valor especifico dentro da variável. Apenas indicando o índice de valor desejado.
 
 ```
+---
+## 🗓️ Dia 3
+✅ **Data:** 25/04/2025 
+📌 **Resumo:**
+Hoje foi dia de praticar input e output!
+Trabalhei com input() e print() em alguns exercícios simples, mas que me ajudaram a entender melhor como interagir com o usuário e exibir informações de forma clara.
+
+Pode parecer básico, mas cada linha de código é um passo a mais nessa jornada! 👨‍💻🔥
+
+Bora pro próximo!
+```python
+name = input("Qual seu nome?")
+print(f"Olá, {name}")
+
+age = int(input("Qual sua idade?"))
+height = float(input("Qual sua altura?"))
+
+print(f"\nSeus dados:")
+print(f"Nome: {name}")
+print(f"Idade: {age}")
+print(f"Altura: {height}")
+
+print("\nTipos de dados:")
+print("Nome: ", type(name))
+print("Idade: ", type(age))
+print("Altura: ", type(height))
+```
+

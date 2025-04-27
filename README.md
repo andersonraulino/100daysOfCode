@@ -88,7 +88,7 @@ print("Altura: ", type(height)) #Tipo Decimal
 ```
 ---
 
-## 🚀 #100DaysOfCode - Dia 4
+## 🗓️ Dia 4
 ✅ **Data:** 26/04/2025
 📌 **Resumo:**
 

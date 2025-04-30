@@ -8,7 +8,8 @@ Aqui eu vou registrar meu progresso diário enquanto codifico por pelo menos 1 h
 ## 🗓️ Dia 1
 
 ✅ **Data:** 23/04/2025 
-📌 **Resumo:**  
+📌 **Resumo:**
+
 Hoje comecei o desafio com o clássico dos clássicos:  
 ```python
 print("Hello World!")
@@ -27,7 +28,8 @@ print("Ebaaaaa!!! Quebrei a maldição!!!")
 ## 🗓️ Dia 2
 
 ✅ **Data:** 24/04/2025 
-📌 **Resumo:**  
+📌 **Resumo:**
+
 Hoje foi dia de mexer com tipos de variáveis:  
 ```python
 #Criação de variáveis de diferentes tipos.
@@ -60,6 +62,7 @@ print(f"\nSiblings:{siblings[0]}") #Utilizando "[]" após a variável, é possiv
 ```
 ---
 ## 🗓️ Dia 3
+
 ✅ **Data:** 25/04/2025
 📌 **Resumo:**
 
@@ -89,6 +92,7 @@ print("Altura: ", type(height)) #Tipo Decimal
 ---
 
 ## 🗓️ Dia 4
+
 ✅ **Data:** 26/04/2025
 📌 **Resumo:**
 
@@ -148,8 +152,10 @@ print("NOT False: ", not value_false)
 ```
 ---
 ## 🗓️ Dia 5
+
 ✅ **Data:** 27/04/2025
 📌 **Resumo:**
+
 Hoje mergulhei em condições e repetições em Python!
 Aprendi a usar if, else, elif e também dei meus primeiros passos com os laços while e for.
 Foi tipo dar superpoderes pro código — agora ele toma decisões e repete ações sozinho! 🦾⚙️
@@ -207,6 +213,7 @@ print(f"O fatorial de {number} é igual a {fatorial}")
 ```
 ---
 ## 🗓️ Dia 6
+
 ✅ **Data:** 28/04/2025
 📌 **Resumo:**
 

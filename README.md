@@ -209,6 +209,7 @@ print(f"O fatorial de {number} é igual a {fatorial}")
 ## 🗓️ Dia 6
 ✅ **Data:** 28/04/2025
 📌 **Resumo:**
+
 Hoje foi dia de aprender sobre funções e como elas ajudam a reutilizar código!
 Agora meu código tá mais organizado, limpo e fácil de entender — nada de repetir blocos iguais mil vezes. Só chamo a função e pronto! 📦✨
 

@@ -258,3 +258,37 @@ def modify_global_var():
 modify_global_var() # Chamando a função
 print(f"Valor atualizado depois de chamar a função: {global_var}")
 ```
+---
+## 🗓️ Dia 7
+
+✅ **Data:** 29/04/2025
+📌 **Resumo:**
+
+Hoje foi dia de conhecer as listas e tuplas em Python!
+Aprendi a guardar vários valores numa mesma variável e a manipular esses dados de várias formas: adicionar, acessar, remover… tudo na base da praticidade! 📚🛠️
+
+As tuplas me surpreenderam por serem imutáveis — ótimas pra quando os dados não devem mudar.
+Mais uma ferramenta na caixa! 🔧💻
+```python
+
+```
+---
+## 🗓️ Dia 8
+
+✅ **Data:** 30/04/2025
+📌 **Resumo:**
+
+
+```python
+
+```
+---
+## 🗓️ Dia 13
+
+✅ **Data:** 05/05/2025
+📌 **Resumo:**
+
+## 🗓️ Dia 14
+
+✅ **Data:** 06/05/2025
+📌 **Resumo:**

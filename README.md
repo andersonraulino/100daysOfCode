@@ -270,6 +270,83 @@ Aprendi a guardar vários valores numa mesma variável e a manipular esses dados
 As tuplas me surpreenderam por serem imutáveis — ótimas pra quando os dados não devem mudar.
 Mais uma ferramenta na caixa! 🔧💻
 ```python
+import time
+import sys
+
+# Lista 
+list = ["filme", "série", "desenho", "documentário", "anime"]
+
+while True:
+    print("\nMenu")
+    print("1. Ver generos")
+    print("2. Adicionar elemento")
+    print("3. Remover elemento")
+    # print("4. Dividir lista")
+    print("5. Sair")
+
+    menu = int(input("Digite um número de 1 a 5: "))
+    time.sleep(1.2)
+
+    if menu == 1:
+        print(list)
+        time.sleep(1.2)
+    elif menu == 2:
+        add = input("Digite o que deseja adicionar: ")
+        list.append(add)
+        def loading(mensagem="Adicionando", repeticoes=3, delay=0.5):
+            for _ in range(1):  # repete o ciclo algumas vezes
+                for i in range(repeticoes + 1):
+                    pontos = '.' * i
+                    print(f'\r{mensagem}{pontos}{" " * (repeticoes - i)}', end='')
+                    sys.stdout.flush()
+                    time.sleep(delay)
+            print(f"\n{add} adicionado!")
+        loading()
+        time.sleep(1.2)
+    elif menu == 3:
+        delete = input("Digite o que deseja remover: ")
+        list.remove(delete)
+        def loading(mensagem="Removendo", repeticoes=3, delay=0.5):
+            for _ in range(2):  # repete o ciclo algumas vezes
+                for i in range(repeticoes + 1):
+                    pontos = '.' * i
+                    print(f'\r{mensagem}{pontos}{" " * (repeticoes - i)}', end='')
+                    sys.stdout.flush()
+                    time.sleep(delay)
+            print(f"\n{delete} removido!")
+        loading()
+        time.sleep(1.2)
+    # elif menu == 4:
+    #     print("Primeiro lado")  
+    #     print("Segundo lado")
+    #     n = "desenho"
+    #     primeiroLado = menu[:n]
+    #     segundoLado = menu[n:]
+                                        #DIVIDIR A LISTA NO MEIO
+    #     if n == 1:
+    #         print(primeiroLado)
+    #     elif n == 2:
+    #         print(segundoLado)
+    #     else:
+    #         print("Escolha o número 1 ou 2: ")
+    #     time.sleep(1.2)
+    elif menu == 5:
+        def loading(mensagem="Saindo", repeticoes=3, delay=0.5):
+            for _ in range(2):  # repete o ciclo algumas vezes
+                for i in range(repeticoes + 1):
+                    pontos = '.' * i
+                    print(f'\r{mensagem}{pontos}{" " * (repeticoes - i)}', end='')
+                    sys.stdout.flush()
+                    time.sleep(delay)
+            print('\nPronto!')
+        loading()
+        break
+    
+    else:
+        print("POR FAVOR, DIGITE UM NÚMERO INTEIRO DE 1 A 5")
+        time.sleep(1)
+
+# Tuplas
 
 ```
 ---
@@ -278,8 +355,93 @@ Mais uma ferramenta na caixa! 🔧💻
 ✅ **Data:** 30/04/2025
 📌 **Resumo:**
 
+Hoje o aprendizado foi sobre conjuntos e dicionários em Python!
+Os conjuntos me mostraram como trabalhar com dados únicos, sem repetições — tipo uma limpeza automática nos valores duplicados.
+Já os dicionários foram como criar mini bancos de dados, com chaves e valores pra organizar melhor as informações. 🔑📦
+Cada estrutura nova abre um monte de possibilidades. Bora pro próximo!
 
 ```python
+# Conjuntos
+print("Conjunto inicial:")
+meuConjunto = {1, 2, 3, 4, 5, 5, 6}
+print(meuConjunto)
+print("\nConjunto após adição:")
+meuConjunto.add(7)
+print(meuConjunto)
+print("\nConjunto após remoção:")
+meuConjunto.remove(1)
+print(meuConjunto)
+
+novoConjunto = {8, 9, 10, 11, 12}
+
+print("\nOperação union:")
+conjuntoUniao = meuConjunto.union(novoConjunto)
+print(conjuntoUniao)
+
+conjunto1 = {"banana", "maça", "kiwi"}
+conjunto2 = {"pera", "goiaba", "banana"}
+
+print("\nOperação intersection:")
+inter = conjunto1.intersection(conjunto2)
+print(inter)
+
+print("\nOperação difference:")
+diff = conjunto1.difference(conjunto2) # Mostrando a diferença entre conjunto1 em relação ao conjunto2
+print(diff) # Chamando a var "diff"
+conjunto1.add("uva") # Adicionando elemento "uva" dentro do conjunto
+print(conjunto1)
+
+while True:
+    print("\nMenu")
+    print("0. Ver conjunto")
+    print("1. Adicionar")
+    print("2. Remover")
+    print("3. Union")
+    print("4. Intersection")
+    print("5. Difference")
+    print("6. Sair")
+
+    menu = int(input("Digite um número inteiro de 0 a 6: "))
+    if menu == 0:
+        print(f"Conjunto 1: {conjunto1} \nConjunto 2: {conjunto2}")
+    elif menu == 1:
+        conj = int(input("Qual conjunto deseja?"))
+        if conj == 1:
+            addconj1 = input("Digite o que irá adicionar: ")
+            conjunto1.add(addconj1)
+            print(conjunto1)
+        elif conj == 2:
+            addconj2 = input("Digite o que irá adicionar: ")
+            conjunto2.add(addconj2)
+            print(conjunto2)
+        else:
+            print("Digite o número do conjunto desejado: ")
+    elif menu == 2:
+        conj = int(input("Qual conjunto deseja?"))
+        if conj == 1:
+            addconj1 = input("Digite o que irá remover: ")
+            conjunto1.remove(addconj1)
+            print(conjunto1)
+        elif conj == 2:
+            addconj2 = input("Digite o que irá remover: ")
+            conjunto2.remove(addconj2)
+            print(conjunto2)
+        else:
+            print("Digite o número do conjunto desejado: ")
+    elif menu == 3:
+        conjUni = conjunto1.union(conjunto2)
+        print(conjUni)
+    elif menu == 4:
+        conjInter = conjunto1.intersection(conjunto2)
+        print(conjInter)
+    elif menu == 5:
+        conjdiff = conjunto1.difference(conjunto2)
+        print(conjdiff)
+    elif menu == 6:
+        print("Saindo...")
+        break
+
+# Dicionários
 
 ```
 ---

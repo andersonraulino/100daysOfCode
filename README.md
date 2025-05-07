@@ -471,6 +471,40 @@ for chave, valor in dic.items():
     print(f"{chave}: {valor}")
 ```
 ---
+## 🗓️ Dia 09
+
+✅ **Data:** 01/05/2025
+📌 **Resumo:**
+
+Hoje eu criei um gerador de números aleatórios em Python! 🎲
+Com ele, posso gerar tanto números inteiros quanto decimais de 1 a 10, tudo na base da escolha do usuário. Simples, mas super divertido de fazer! 😎
+
+Foi uma ótima prática pra entender mais sobre bibliotecas como o random e também pra melhorar minhas habilidades de lógica e condições.
+```python
+import random
+
+# Função para gerar um número aleatório (inteiro ou decimal)
+def gerador_aleatorio():
+    tipo = input("Digite 1 para número inteiro ou 2 para número decimal: ")
+    if tipo == "1":
+        numero = random.randint(1, 100)  # Número inteiro entre 1 e 100
+        print(f"Número inteiro aleatório: {numero}")
+    elif tipo == "2":
+        numero = random.uniform(1, 100)  # Número decimal entre 1 e 100
+        print(f"Número decimal aleatório: {numero:.2f}")
+    else:
+        print("Opção inválida. Escolha 1 ou 2.")
+    
+# Função para gerar apenas números inteiros
+def gerador_inteiro():
+    numero = random.randint(1, 100)  # Gera um número inteiro entre 1 e 100
+    print(f"Número inteiro aleatório: {numero}")
+
+print("=== GERADOR DE NÚMEROS ALEATÓRIOS ===")
+gerador_aleatorio()
+
+```
+---
 ## 🗓️ Dia 13
 
 ✅ **Data:** 05/05/2025

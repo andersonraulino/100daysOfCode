@@ -12,14 +12,14 @@ print(meuConjunto)
 novoConjunto = {8, 9, 10, 11, 12}
 
 print("\nOperação union:")
-conjuntoUniao = meuConjunto.union(novoConjunto)
+conjuntoUniao = meuConjunto.union(novoConjunto) # Union serve para unir os conjuntos
 print(conjuntoUniao)
 
 conjunto1 = {"banana", "maça", "kiwi"}
 conjunto2 = {"pera", "goiaba", "banana"}
 
 print("\nOperação intersection:")
-inter = conjunto1.intersection(conjunto2)
+inter = conjunto1.intersection(conjunto2) # Intersection serve para ver os elementos de relação dos conjuntos
 print(inter)
 
 print("\nOperação difference:")
@@ -33,7 +33,7 @@ while True:
     print("0. Ver conjunto")
     print("1. Adicionar")
     print("2. Remover")
-    print("3. Union")
+    print("3. Union") 
     print("4. Intersection")
     print("5. Difference")
     print("6. Sair")
@@ -79,3 +79,20 @@ while True:
         break
 
 # Dicionários
+dic = {"Nome": "Anderson", "Idade": 19, "Ocupação": "Estudante"}
+print(dic["Nome"])
+print(dic.get("Idade")) # Chamando valor de Idade
+print(dic.pop("Nome")) # Retirando elemento Nome, dentro da tupla
+print(dic.values()) # Pegando apenas os valores
+
+# Iterando chaves
+for chave in dic.keys():
+    print(chave)
+
+# Iterando valores
+for valor in dic.values():
+    print(valor)
+
+# Iterando chaves e valores
+for chave, valor in dic.items():
+    print(f"{chave}: {valor}")

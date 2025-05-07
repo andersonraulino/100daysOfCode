@@ -347,7 +347,17 @@ while True:
         time.sleep(1)
 
 # Tuplas
+tupla = ("Anderson", "Gabriela", "Henrique", "Denis")
+tupla2 = ("19", "26", "25", "24")
+print(tupla)
+print(tupla[1])
+tuplaList = list(tupla) # Convertendo para uma lista
+print(tupla)
 
+# Utilizanndo operadores
+print(len(tupla)) # Identificando quantos elementos possui
+print(tupla + tupla2) # Juntando as tuplas
+print(tupla *2) # Repetindo a tupla
 ```
 ---
 ## 🗓️ Dia 8
@@ -442,7 +452,23 @@ while True:
         break
 
 # Dicionários
+dic = {"Nome": "Anderson", "Idade": 19, "Ocupação": "Estudante"}
+print(dic["Nome"])
+print(dic.get("Idade")) # Chamando valor de Idade
+print(dic.pop("Nome")) # Retirando elemento Nome, dentro da tupla
+print(dic.values()) # Pegando apenas os valores
 
+# Iterando chaves
+for chave in dic.keys():
+    print(chave)
+
+# Iterando valores
+for valor in dic.values():
+    print(valor)
+
+# Iterando chaves e valores
+for chave, valor in dic.items():
+    print(f"{chave}: {valor}")
 ```
 ---
 ## 🗓️ Dia 13

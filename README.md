@@ -477,7 +477,7 @@ for chave, valor in dic.items():
 📌 **Resumo:**
 
 Hoje eu criei um gerador de números aleatórios em Python! 🎲
-Com ele, posso gerar tanto números inteiros quanto decimais de 1 a 10, tudo na base da escolha do usuário. Simples, mas super divertido de fazer! 😎
+Com ele, posso gerar tanto números inteiros quanto decimais de 1 a 100, tudo na base da escolha do usuário. Simples, mas super divertido de fazer! 😎
 
 Foi uma ótima prática pra entender mais sobre bibliotecas como o random e também pra melhorar minhas habilidades de lógica e condições.
 ```python

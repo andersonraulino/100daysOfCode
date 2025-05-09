@@ -505,19 +505,90 @@ gerador_aleatorio()
 
 ```
 ---
+## 🗓️ Dia 10
+
+✅ **Data:** 02/05/2025
+📌 **Resumo:**
+
+Hoje eu trabalhei com o loop for e criei uma sequência de números de 1 a 10 de forma automática! 🔄
+Simples, mas é incrível ver o código fazendo o trabalho repetitivo pra mim. 😎
+
+Entendi melhor como controlar a repetição e como usar o range() pra definir o intervalo. Cada linha de código é um passo pra mais produtividade! 🚀
+```python
+for i in range(1, 11):# Cria uma sequência de números
+    print(i)
+```
+---
+## 🗓️ Dia 11
+
+✅ **Data:** 03/05/2025
+📌 **Resumo:**
+
+Hoje foi dia de fazer uma sequência de números de 1 a 10 novamente, mas dessa vez usando o loop while! 🔄
+Diferente do for, o while me deu mais controle, e eu precisei definir as condições direitinho pra não entrar num loop infinito. 😅
+
+Mais uma ferramenta que entendi melhor e que me dá mais flexibilidade no código!
+```python
+# for i in range(2, 21, 2):
+#     print(i)
+numero = 2 # Número incial
+while numero <= 20:
+    print(numero)
+    numero += 2 # Somando 2 sobre o valor anterior da variável 'numero'
+    break
+```
+---
+## 🗓️ Dia 12
+
+✅ **Data:** 04/05/2025
+📌 **Resumo:**
+
+Hoje eu criei um programa em Python que verifica se um número é par ou ímpar! 🔢
+O usuário digita o número, e o código faz a mágica — usando o operador % pra identificar se o resto da divisão por 2 é zero (par) ou não (ímpar).
+
+Simples, mas super útil pra treinar lógica e condições! 😎💡
+Cada dia, mais domínio do código!
+```python
+def verificador(valor: int): # Declara a propriedade como um valor inteiro
+    if valor % 2 == 0:
+        # Testei fazer com um print, porém ele sempre me retornou o resultado e logo abaixo, ele retornou a mensagem "None". Para evitar isso, devemos utilizar um 'return'
+        return f"O número {numero} é par!"
+    elif valor % 2 == 1:
+        return f"O número {numero} é ímpar!"
+    else:
+        return "Digite um número válido!"
+numero = int(input("Digite um número inteiro: "))
+resultado = verificador(numero)
+print(resultado)
+```
+---
 ## 🗓️ Dia 13
 
 ✅ **Data:** 05/05/2025
 📌 **Resumo:**
 
+---
 ## 🗓️ Dia 14
 
 ✅ **Data:** 06/05/2025
 📌 **Resumo:**
+
 ---
 ## 🗓️ Dia 15
 
 ✅ **Data:** 07/05/2025
+📌 **Resumo:**
+
+---
+## 🗓️ Dia 16
+
+✅ **Data:** 08/05/2025
+📌 **Resumo:**
+
+---
+## 🗓️ Dia 17
+
+✅ **Data:** 09/05/2025
 📌 **Resumo:**
 
 ---

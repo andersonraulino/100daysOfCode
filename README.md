@@ -671,22 +671,105 @@ print(verificar_palindromo(entrada))
 ✅ **Data:** 09/05/2025
 📌 **Resumo:**
 
+Hoje eu criei uma função em Python que conta as vogais em uma palavra! 🔡✨
+
+O usuário digita a palavra, e o código percorre cada letra, verificando se é uma vogal (a, e, i, o, u).
+Um ótimo exercício pra treinar loops, condições e manipulação de strings! 😎
+
+Exemplo:
+✅ "python" tem 1 vogal.
+✅ "desenvolvimento" tem 6 vogais.
+```python
+def contar_vogais(texto):
+    vogais = "aeiouAEIOU"
+    contador = 0
+    
+    for caractere in texto:
+        if caractere in vogais:
+            contador += 1
+    
+    return f"A string contém {contador} vogal(is)."
+
+# Testando a função
+entrada = input("Digite uma string: ")
+print(contar_vogais(entrada))
+
+```
 ---
 ## 🗓️ Dia 18
 
 ✅ **Data:** 10/05/2025
 📌 **Resumo:**
 
+Hoje eu criei uma função em Python que calcula a soma de todos os elementos em uma lista! ➕📋
+
+O código percorre cada item somando tudo.
+Exemplo:
+✅ Para a lista [1, 2, 3, 4, 5], a soma é 15.
+```python
+def somar_elementos(lista):
+    return sum(lista)
+
+numeros = [1, 2, 3, 4, 5]
+
+# Testando a função
+print(f"A soma dos elementos da lista {numeros} é: {somar_elementos(numeros)}")
+```
 ---
 ## 🗓️ Dia 19
 
 ✅ **Data:** 11/05/2025
 📌 **Resumo:**
 
+Hoje eu criei uma função em Python que encontra o elemento máximo em uma lista! 🔝📋
+
+O código percorre todos os itens, retornando o maior valor.
+Foi uma boa prática pra aprimorar a lógica e entender mais sobre manipulação de listas! 😎
+
+Exemplo:
+✅ Para a lista [3, 1, 9, 7, 2], o maior número é 9.
+```python
+def encontrar_maximo(lista):
+    if len(lista) == 0:
+        return "A lista está vazia."
+    maximo = lista[0]
+    for elemento in lista[1:]:
+        if elemento > maximo:
+            maximo = elemento
+    return f"O maior elemento da lista é: {maximo}"
+
+# Testando a função
+numeros = [10, 22, 5, 78, 33]
+print(encontrar_maximo(numeros))
+
+```
 ---
 ## 🗓️ Dia 20
 
 ✅ **Data:** 12/05/2025
 📌 **Resumo:**
 
+Hoje eu criei uma função em Python que gera a sequência de Fibonacci até um certo limite! 🔢✨
+
+O usuário escolhe o limite, e o código vai somando os dois últimos números pra formar o próximo da sequência.
+Foi uma ótima prática pra entender melhor loops e lógica matemática! 😎
+
+Exemplo:
+✅ Para o limite 20, a sequência é: 0, 1, 1, 2, 3, 5, 8, 13.
+```python
+def fibonacci_ate_limite(limite):
+    sequencia = [0, 1]
+    
+    while True:
+        proximo = sequencia[-1] + sequencia[-2]
+        if proximo > limite:
+            break
+        sequencia.append(proximo)
+    
+    return sequencia
+
+# Testando a função
+limite = int(input("Digite o limite para a sequência de Fibonacci: "))
+print(f"A sequência de Fibonacci até {limite} é: {fibonacci_ate_limite(limite)}")
+```
 ---

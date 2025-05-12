@@ -591,22 +591,102 @@ print(f"O maior número é {resultado}")
 ✅ **Data:** 06/05/2025
 📌 **Resumo:**
 
+Hoje eu criei um programa em Python que verifica se um ano é bissexto ou não! 📅🌐
+
+O usuário digita o ano, e o código analisa com base nas regras:
+✅ Divisível por 4, mas não por 100 (a menos que seja divisível por 400).
+```python
+def verificar_ano_bissexto(ano):
+    if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0):
+        return f"{ano} é um ano bissexto."
+    else:
+        return f"{ano} não é um ano bissexto."
+
+try:
+    ano = int(input("Digite um ano: "))
+    print(verificar_ano_bissexto(ano))
+except ValueError:
+    print("Por favor, insira um valor numérico válido.")
+```
 ---
 ## 🗓️ Dia 15
 
 ✅ **Data:** 07/05/2025
 📌 **Resumo:**
+Hoje foi dia de criar uma função em Python para calcular o fatorial de um número! 🔢⚡
 
+Foi uma ótima prática pra reforçar o conceito de funções e lógica matemática.
+O usuário digita o número e o código retorna o fatorial dele — multiplicando todos os números de 1 até o valor escolhido.
+```python
+def calcular_fatorial(n):
+    if n < 0:
+        return "Fatorial não é definido para números negativos."
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        fatorial = 1
+        for i in range(2, n + 1):
+            fatorial *= i
+        return fatorial
+
+try:
+    numero = int(input("Digite um número: "))
+    print(f"O fatorial de {numero} é: {calcular_fatorial(numero)}")
+except ValueError:
+    print("Por favor, insira um valor numérico válido.")
+```
 ---
 ## 🗓️ Dia 16
 
 ✅ **Data:** 08/05/2025
 📌 **Resumo:**
 
+Hoje eu criei uma função em Python que verifica se uma palavra é um palíndromo! 🔁✨
+
+O usuário digita uma palavra, e o código verifica se ela é igual quando lida de trás pra frente.
+Um ótimo exercício pra entender melhor manipulação de strings e lógica de comparação! 😎
+
+Exemplos:
+✅ "arara" é um palíndromo.
+❌ "python" não é.
+```python
+def verificar_palindromo(texto):
+    # Remove espaços e transforma em minúsculas
+    texto = texto.replace(" ", "").lower()
+    
+    # Verifica se a string é igual ao seu reverso
+    if texto == texto[::-1]:
+        return "A palavra é um palíndromo."
+    else:
+        return "A palavra não é um palíndromo."
+
+# Testando a função
+entrada = input("Digite uma palavra: ")
+print(verificar_palindromo(entrada))
+
+```
 ---
 ## 🗓️ Dia 17
 
 ✅ **Data:** 09/05/2025
+📌 **Resumo:**
+
+---
+## 🗓️ Dia 18
+
+✅ **Data:** 10/05/2025
+📌 **Resumo:**
+
+---
+## 🗓️ Dia 19
+
+✅ **Data:** 11/05/2025
+📌 **Resumo:**
+
+---
+## 🗓️ Dia 20
+
+✅ **Data:** 12/05/2025
 📌 **Resumo:**
 
 ---

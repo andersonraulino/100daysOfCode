@@ -773,3 +773,36 @@ limite = int(input("Digite o limite para a sequência de Fibonacci: "))
 print(f"A sequência de Fibonacci até {limite} é: {fibonacci_ate_limite(limite)}")
 ```
 ---
+# 🗓️ Dia 21
+
+✅ **Data:** 13/05/2025
+📌 **Resumo:**
+
+Hoje criei uma função para inverter uma lista de elementos!
+O usuário fornece a lista e para reverter ela, eu ultilizei doi métodos.
+O primeiro utilizei um insert dentro de um loop, para percorrer todos os elementos e mandar cada um para a posição '0'. Assim, faria com que o último elemento se tornasse o primeiro.
+No segundo utilizei o método [:: -1] de fatiamento (slicing). Para em caso de ter uma lista com diversos elementos, esse método é mais recomendado, por conta da sua rapidez. 😎
+```python
+# === Primeiro Método ===
+# def reverterLista(lista):
+
+#     listaRevertida = []
+
+#     for elemento in lista: # Percorre a lista e manda os elementos para a posição 0, um por um
+#         listaRevertida.insert(0, elemento)
+    
+#     return listaRevertida
+
+
+# === Segundo Método ===
+def reverterLista(lista):
+    lista = lista[::-1] # Utilizando método de fatiamento (slicing)
+
+    return lista
+
+# Testando
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(f"A lista original é: {numeros}")
+print(f"A lista invertida é: {reverterLista(numeros)}")
+```
+---

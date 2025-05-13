@@ -779,8 +779,11 @@ print(f"A sequência de Fibonacci até {limite} é: {fibonacci_ate_limite(limite
 📌 **Resumo:**
 
 Hoje criei uma função para inverter uma lista de elementos!
+
 O usuário fornece a lista e para reverter ela, eu ultilizei doi métodos.
+
 O primeiro utilizei um insert dentro de um loop, para percorrer todos os elementos e mandar cada um para a posição '0'. Assim, faria com que o último elemento se tornasse o primeiro.
+
 No segundo utilizei o método [:: -1] de fatiamento (slicing). Para em caso de ter uma lista com diversos elementos, esse método é mais recomendado, por conta da sua rapidez. 😎
 ```python
 # === Primeiro Método ===

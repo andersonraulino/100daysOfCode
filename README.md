@@ -806,3 +806,18 @@ print(f"A lista original é: {numeros}")
 print(f"A lista invertida é: {reverterLista(numeros)}")
 ```
 ---
+# 🗓️ Dia 22
+
+✅ **Data:** 14/05/2025
+📌 **Resumo:**
+
+Criei uma função para remover todos os elementos duplicados, utilizando a função 'set'. Assim pude criar uma lista somente com elementos únicos.
+
+```python
+def removerDuplicadas(lista):
+    return list(set(lista)) # set é uma coleção não ordenada de elementos únicos, o que o torna ideal para remover duplicatas
+
+numeros = [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8]
+print(f"Lista com duplicadas: {numeros}")
+print(f"Lista sem duplicadas: {removerDuplicadas(numeros)}")
+```

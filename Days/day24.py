@@ -9,7 +9,6 @@ print(f"Lista com conversão: {converterPalavras(lista)}")
 
 # Separando novamento as palavras, utilizando um split() dentro de uma nova função
 def inverterConversão(nova):
-    x = nova.split(" ")
-    return x
+    return nova.split(" ")
 
 print(f"Separação da frase: {inverterConversão(converterPalavras(lista))}")

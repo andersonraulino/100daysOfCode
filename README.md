@@ -845,5 +845,23 @@ print(f"Primeira lista: {primeiraLista}")
 print(f"Segunda lista: {segundaLista}")
 
 print(f"Intersection das listas: {intersectionList(primeiraLista, segundaLista)}")
-
 ```
+---
+
+# 🗓️ Dia 24
+
+✅ **Data:** 16/05/2025
+📌 **Resumo:**
+
+Função para converter uma lista de palavras separadas e torna-las uma lista com elas todas juntas.
+```python
+def converterPalavras(palavra):
+    for i in lista:
+        return " ".join(palavra)
+
+lista = ["Olá", "Mundo.", "Quebrei", "a", "maldição."]
+
+print(f"Lista sem conversão: {lista}")
+print(f"Lista com conversão: {converterPalavras(lista)}")
+```
+---

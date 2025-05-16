@@ -856,8 +856,7 @@ print(f"Intersection das listas: {intersectionList(primeiraLista, segundaLista)}
 Função para converter uma lista de palavras separadas e torna-las uma lista com elas todas juntas.
 ```python
 def converterPalavras(palavra):
-    for i in lista:
-        return " ".join(palavra)
+    return " ".join(palavra)
 
 lista = ["Olá", "Mundo.", "Quebrei", "a", "maldição."]
 

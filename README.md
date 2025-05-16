@@ -824,3 +824,26 @@ numeros = [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8]
 print(f"Lista com duplicadas: {numeros}")
 print(f"Lista sem duplicadas: {removerDuplicadas(numeros)}")
 ```
+---
+# 🗓️ Dia 23
+
+✅ **Data:** 15/05/2025
+📌 **Resumo:**
+
+Função para saber a intersection das listas. 
+
+Cada dia aprendendo a utilizar mais as funções.😉
+```python
+def intersectionList(lista1, lista2):
+    inter = lista1.intersection(lista2)
+
+    return inter
+
+primeiraLista = {2, 4, 6, 8}
+segundaLista = {2, 3, 4, 5, 6}
+print(f"Primeira lista: {primeiraLista}")
+print(f"Segunda lista: {segundaLista}")
+
+print(f"Intersection das listas: {intersectionList(primeiraLista, segundaLista)}")
+
+```

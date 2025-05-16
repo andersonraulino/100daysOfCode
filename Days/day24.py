@@ -1,6 +1,5 @@
 def converterPalavras(palavra):
-    for i in lista:
-        return " ".join(palavra)
+    return " ".join(palavra)
 
 lista = ["Olá", "Mundo.", "Quebrei", "a", "maldição."]
 

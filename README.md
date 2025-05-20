@@ -870,3 +870,22 @@ def inverterConversão(nova):
 print(f"Separação da frase: {inverterConversão(converterPalavras(lista))}")
 ```
 ---
+# 🗓️ Dia 25
+
+✅ **Data:** 17/05/2025
+📌 **Resumo:**
+
+Função para fazer contagem de palavras dentro de uma frase.
+Utilizei um split para fazer a separação da frase e um length para medir o comprimento.
+
+```python
+# Função para fazer a contagem de palavras dentro de uma frase
+def contagemLista(lista):
+    return print(f"A frase possui: {len(lista)} palavras")
+
+
+frase = "Bem-vindo novamento, espero que esteja bem!" 
+frase = frase.split(" ")
+
+contagemLista(frase)
+```

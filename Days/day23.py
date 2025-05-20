@@ -9,10 +9,3 @@ print(f"Primeira lista: {primeiraLista}")
 print(f"Segunda lista: {segundaLista}")
 
 print(f"Intersection das listas: {intersectionList(primeiraLista, segundaLista)}")
-
-
-teste = iter(primeiraLista)
-print(next(teste))
-print(next(teste))
-print(next(teste))
-print(next(teste))

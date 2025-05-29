@@ -909,3 +909,37 @@ def anagramas(palavra1, palavra2):
 print(anagramas("Amor", "Roma"))
 print(anagramas("Cama", "Sala"))
 ```
+# 🗓️ Dia 27
+
+✅ **Data:** 19/05/2025
+📌 **Resumo:**
+
+Função para localizar a maior palavra dentro de uma frase.
+```python
+def palavra_mais_longa(frase):
+    palavras = frase.split()  # separa a frase em palavras
+    mais_longa = max(palavras, key=len)  # pega a palavra com maior comprimento
+    return mais_longa
+
+
+frase = "O rato roeu a roupa do rei de Roma"
+print("A palavra mais longa é:", palavra_mais_longa(frase))
+```
+---
+# 🗓️ Dia 28
+
+✅ **Data:** 20/05/2025
+📌 **Resumo:**
+
+Função que inverter as palavras dentro de uma frase.
+```python
+def inverter_palavras(frase):
+    palavras = frase.split()  # separa a frase em palavras
+    palavras_invertidas = [palavra[::-1] for palavra in palavras]  # inverte cada palavra
+    frase_invertida = ' '.join(palavras_invertidas)  # junta de volta em uma frase
+    return frase_invertida
+
+
+frase = "O rato roeu a roupa do rei de Roma"
+print("Frase com palavras invertidas:", inverter_palavras(frase))
+```

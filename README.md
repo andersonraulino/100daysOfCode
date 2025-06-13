@@ -943,3 +943,100 @@ def inverter_palavras(frase):
 frase = "O rato roeu a roupa do rei de Roma"
 print("Frase com palavras invertidas:", inverter_palavras(frase))
 ```
+---
+# 🗓️ Dia 29
+
+✅ **Data:** 21/05/2025
+📌 **Resumo:**
+
+Criei um dicionário de palavras e suas frequências.
+
+Primeiro, separei cada palavra da frase com o 'split'. Logo após, criei um dicionário vazio, onde iria armazenar todos os dados.
+
+Utilizei for para percorrer as palavras e se palavra ja estiver no dicionário "frequenciaa", então ele aumentava o valor em 1, se não, ele adicionava a palavra com o valor 1, sendo ela a primeira vez que apareceu.
+```python
+texto = "gato cachorro rato gato pássaro cachorro gato"
+
+# Quebra o texto em palavras
+palavras = texto.split()
+
+# Cria o dicionário de frequências
+frequencias = {}
+
+for palavra in palavras:
+    if palavra in frequencias:
+        frequencias[palavra] += 1
+    else:
+        frequencias[palavra] = 1
+
+# Mostra o resultado
+print(frequencias)
+```
+---
+# 🗓️ Dia 30
+
+✅ **Data:** 22/05/2025
+📌 **Resumo:**
+
+Criei uma função para ordenar números de uma lista em ordem crescente.
+```python
+import time
+
+def classificacao(lista):
+    return sorted(lista)
+
+numeros = [14, 25, 2, 13, 10, 1, 5, 100, 210, 59, 78, 18]
+
+while True:
+    print("\nMenu")
+    print("1. Ver lista")
+    print("2. Ordem crescente")
+    print("3. Ordem decrescente")
+    print("4. Sair")
+
+    menu = int(input("Digite um número de 1 a 4: "))
+
+    if menu == 1:
+        print(numeros)
+        time.sleep(0.8)
+    elif menu == 2:
+        print(classificacao(numeros))
+        time.sleep(0.8)
+    elif menu == 3:
+        def classificacao(lista):
+            return sorted(lista, reverse=True)
+        print(classificacao(numeros))
+        time.sleep(0.8)
+    elif menu == 4:
+        print("Saindo...")
+        break
+    else:
+        print("Por favor, digite um número inteiro de 1 a 4: ")
+```
+---
+# 🗓️ Dia 31
+
+✅ **Data:** 23/05/2025
+📌 **Resumo:**
+
+Mesclando dicionários
+```python
+# Mesclar dicionários
+d1 = {"a": 1, "b": 2, "c": 3}
+d2 = {"d": 4, "e": 5, "f": 6}
+
+d3 = d1 | d2
+
+print(d3)
+```
+---
+# 🗓️ Dia 32
+
+✅ **Data:** 24/05/2025
+📌 **Resumo:**
+
+
+```python
+
+```
+---
